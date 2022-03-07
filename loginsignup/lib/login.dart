@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:loginsignup/register.dart';
 
 class MyLogin extends StatefulWidget {
   MyLogin({Key? key}) : super(key: key);
@@ -78,7 +80,9 @@ class _MyLoginState extends State<MyLogin> {
                           radius: 40,
                           backgroundColor: Colors.white,
                           child: IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Get.to(register());
+                            },
                             icon: Icon(Icons.arrow_forward),
                           ),
                         )
@@ -102,7 +106,6 @@ class _MyLoginState extends State<MyLogin> {
                                 color: Colors.white,
                               ),
                             )),
-
                         TextButton(
                             onPressed: () {},
                             child: Text(
