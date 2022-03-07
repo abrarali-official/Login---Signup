@@ -61,6 +61,58 @@ class _MyLoginState extends State<MyLogin> {
                             borderRadius: BorderRadius.circular(50)),
                       ),
                     ),
+                    SizedBox(
+                      height: 50,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Sign In',
+                          style: TextStyle(
+                              fontSize: 36,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white),
+                        ),
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundColor: Colors.white,
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(Icons.arrow_forward),
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 50,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              'Sign Up',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
+                            )),
+
+                        TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              'Forgot Password',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
+                            ))
+                      ],
+                    )
                   ],
                 ),
               ),
