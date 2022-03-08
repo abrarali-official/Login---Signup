@@ -79,7 +79,7 @@ class _registerState extends State<register> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          'Sign In',
+                          'Sign Up',
                           style: TextStyle(
                               fontSize: 36,
                               fontWeight: FontWeight.bold,
